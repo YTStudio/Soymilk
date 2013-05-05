@@ -1,4 +1,8 @@
 
 .metadata/*
 
-soymilk/obj/*
+AndroidClient/obj/*
+
+AndroidClient/bin/*
+
+AndroidClient/gen/*
