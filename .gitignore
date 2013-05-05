@@ -1,8 +1,6 @@
 
 .metadata/*
-
 AndroidClient/obj/*
-
 AndroidClient/bin/*
-
 AndroidClient/gen/*
+AndroidClient/libs/*
