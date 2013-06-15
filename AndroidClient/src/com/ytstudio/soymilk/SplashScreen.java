@@ -1,10 +1,10 @@
 package com.ytstudio.soymilk;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.Window;
 
 public class SplashScreen extends Activity {
 
@@ -28,7 +28,8 @@ public class SplashScreen extends Activity {
 		
 		@Override
 		protected void onPostExecute(Boolean success) {
-			
+			Intent intent = new Intent(SplashScreen.this, Lobby.class);
+			startActivity(intent);
 		}
 	}
 	
